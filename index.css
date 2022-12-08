@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    height: 40px;
+    background-color: grey;
+    margin-bottom: 20px;
+    padding: 10px 0 0 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 10px;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s linear;
+}
+
+nav ul li a:hover{
+    background-color: darkgrey;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.profile{
+    width: 150px;
+    height: 192px;
+    margin: 15px 15px 30px 15px;
+    overflow: hidden;
+}
+
+main article h1{
+    margin: 15px;
+}
+
+main article img{
+    width: 150px;
+    height: 192px;
+    overflow: hidden;
+    transition: scale 0.5s linear;
+}
+
+main article img:hover{
+    scale: 1.2;
+}
+
+.section1 ul{
+    list-style: none;
+    padding: 0;
+}
+
+.section4 h2 span{
+    font-size: 15px;
+}
+
+footer{
+    margin: 20px;
+    height: 60px;
+    background-color: grey;
+    color: white;
+    padding: 15px 0 0 15px;
+}
+footer p{
+    font-size: 13px;
+    line-height: 15px;
+}
